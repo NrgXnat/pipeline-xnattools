@@ -28,7 +28,6 @@ import org.apache.xmlbeans.XmlObject;
 import org.nrg.pipeline.xmlbeans.xnat.MRSessionDocument;
 import org.nrg.pipeline.xmlreader.XmlReader;
 import org.nrg.xdat.bean.XnatMrsessiondataBean;
-import org.nrg.xdat.bean.base.BaseElement;
 import org.xml.sax.SAXException;
 
 public class MRXMLSearch extends AbsService {
