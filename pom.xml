@@ -1,11 +1,19 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<!--
+  ~ xnat-tools: pom.xml
+  ~ XNAT https://www.xnat.org
+  ~ Copyright (c) 2005-2020, Washington University School of Medicine and Howard Hughes Medical Institute
+  ~ All Rights Reserved
+  ~
+  ~ Released under the Simplified BSD.
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <groupId>org.nrg</groupId>
         <artifactId>parent</artifactId>
-        <version>1.7.6</version>
+        <version>1.7.7-SNAPSHOT</version>
     </parent>
 
     <groupId>org.nrg.xnat.pipeline</groupId>
@@ -13,19 +21,19 @@
 
     <name>XNAT Tools</name>
 
-    <url>http://www.xnat.org</url>
+    <url>https://www.xnat.org</url>
     <scm>
         <url>https://github.com/nrgxnat/pipeline-xnattools</url>
     </scm>
 
     <organization>
         <name>Washington University Neuroinformatics Research Group</name>
-        <url>http://nrg.wustl.edu</url>
+        <url>https://nrg.wustl.edu</url>
     </organization>
     <licenses>
         <license>
             <name>BSD</name>
-            <url>http://www.opensource.org/licenses/bsd-license.php</url>
+            <url>https://www.opensource.org/licenses/bsd-license.php</url>
         </license>
     </licenses>
     <developers>
